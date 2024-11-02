@@ -1,0 +1,8 @@
+строим проект
+$ mix new sender --sup
+* sup флаг , строит приложение с super-vision tree
+$ cd sender
+$ iex
+$ iex -S mix
+> recompile() # -> :noop
+* может понадобиться удалить удалить каш _build
